@@ -1,0 +1,13 @@
+package org.javaboy.oauth2.res;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ResJwtApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ResJwtApplication.class, args);
+    }
+
+}
