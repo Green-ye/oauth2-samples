@@ -8,10 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.javaboy.oauth2</groupId>
+<!--    <groupId>org.javaboy.oauth2</groupId>-->
     <artifactId>auth-server-jwt</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auth</name>
+    <name>auth-jwt</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

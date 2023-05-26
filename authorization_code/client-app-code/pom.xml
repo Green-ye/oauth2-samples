@@ -3,15 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.javaboy</groupId>
-        <artifactId>jwt</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.6.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
     <groupId>org.javaboy.oauth2</groupId>
-    <artifactId>client-app-jwt</artifactId>
+    <artifactId>client-app-code</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>client-jwt</name>
+    <name>client-code</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

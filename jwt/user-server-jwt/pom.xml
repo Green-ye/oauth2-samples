@@ -11,7 +11,7 @@
     <groupId>org.javaboy.oauth2</groupId>
     <artifactId>user-server-jwt</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>res</name>
+    <name>res-jwt</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
