@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.javaboy</groupId>
-        <artifactId>authorization_code</artifactId>
+        <artifactId>authorization_code_redis</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>org.javaboy.oauth2</groupId>
-    <artifactId>auth-server-code</artifactId>
+    <artifactId>user-server-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auth-code</name>
+    <name>res-redis</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

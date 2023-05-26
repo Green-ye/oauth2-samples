@@ -4,19 +4,18 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.javaboy</groupId>
-        <artifactId>authorization_code</artifactId>
+        <artifactId>jwt</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>org.javaboy.oauth2</groupId>
-    <artifactId>auth-server-code</artifactId>
+    <artifactId>client-app-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auth-code</name>
+    <name>client-redis</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
     </properties>
 
     <dependencies>
@@ -24,13 +23,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-oauth2</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-security</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
         <dependency>
@@ -45,18 +41,6 @@
             </exclusions>
         </dependency>
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <plugins>
